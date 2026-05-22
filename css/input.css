@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+@theme{
+    --color-dark-blue: #0f172a;
+    --color-blue-shade: #162033;
+    --color-light-blue: #3b82f6;
+    --color-green: #22c55e;
+    --color-purple: #a855f7;
+    
+
+
+}
+
+.buttons {
+    @apply bg-light-blue px-4 py-2 rounded-2xl self-start hover:text-white/80 md:text-2xl"
+}
+
+.nav-link-active{
+    @apply text-light-blue
+}
